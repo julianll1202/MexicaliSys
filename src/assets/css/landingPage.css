@@ -1,0 +1,19 @@
+.index-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+ width: 50%;
+ height: auto;
+ z-index: 3;
+ top: -30vh;
+ left: 180px;
+ position: relative;
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    margin: 15px;
+}
