@@ -1,11 +1,11 @@
 <template>
   <nav
     id="navbar-main"
-    class="navbar navbar-main navbar-expand-lg bg-white navbar-light position-sticky top-0 shadow py-2"
+    class="navbar navbar-expand-lg navbar-dark bg-primary rounded"
   >
     <div class="container">
       <a class="navbar-brand mr-lg-5" href="./index.html">
-        <img src="./assets/img/brand/blue.png" />
+        <img src="/img/mxli_sys_logo.png" width="80" />
       </a>
       <button
         class="navbar-toggler"
@@ -200,5 +200,9 @@
     </div>
   </nav>
 </template>
-<style></style>
+<style>
+.navbar {
+  width: 100vw;
+}
+</style>
 <script></script>

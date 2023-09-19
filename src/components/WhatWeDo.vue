@@ -11,9 +11,12 @@
         <div class="col-md-4">
           <div class="info">
             <div
-              class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle"
+            class="btn btn-lg btn-primary btn-icon-only rounded-circle"
             >
-              <i class="ni ni-settings-gear-65"></i>
+            <span class="btn-inner--icon">
+              <i class="fa-solid fa-code"></i>
+
+            </span>
             </div>
             <h6 class="info-title text-uppercase text-primary">
               Custom Software
@@ -28,9 +31,12 @@
         <div class="col-md-4">
           <div class="info">
             <div
-              class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle"
+            class="btn btn-lg btn-success btn-icon-only rounded-circle"
             >
-              <i class="ni ni-atom"></i>
+            <span class="btn-inner--icon">
+              <i class="fa-solid fa-life-ring"></i>
+
+            </span>
             </div>
             <h6 class="info-title text-uppercase text-success">
               Technical Support
@@ -51,9 +57,12 @@
         <div class="col-md-4">
           <div class="info">
             <div
-              class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle"
+            class="btn btn-lg btn-warning btn-icon-only rounded-circle"
             >
-              <i class="ni ni-world"></i>
+            <span class="btn-inner--icon">
+              <i class="fa-solid fa-bullhorn"></i>
+
+            </span>
             </div>
             <h6 class="info-title text-uppercase text-warning">
               Digital Marketing and Design

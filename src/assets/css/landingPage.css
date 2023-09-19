@@ -17,3 +17,14 @@
     height: auto;
     margin: 15px;
 }
+
+.btn-lg  i {
+    top: 10px;
+
+}
+
+.btn-lg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,23 +1,5 @@
 <template>
   <footer class="footer has-cards" style="">
-    <div class="container container-lg">
-      <div class="row">
-        <div class="col-md-6 mb-5 mb-md-0">
-          <div class="card card-lift--hover shadow border-0">
-            <a href="./examples/landing.html" title="Landing Page">
-              <img src="./assets/img/theme/landing.jpg" class="card-img" />
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 mb-5 mb-lg-0">
-          <div class="card card-lift--hover shadow border-0">
-            <a href="./examples/profile.html" title="Profile Page">
-              <img src="./assets/img/theme/profile.jpg" class="card-img" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="container">
       <div class="row row-grid align-items-center my-md">
         <div class="col-lg-6">
@@ -31,17 +13,7 @@
         <div class="col-lg-6 text-lg-center btn-wrapper">
           <button
             target="_blank"
-            href="https://twitter.com/creativetim"
-            rel="nofollow"
-            class="btn btn-icon-only btn-twitter rounded-circle"
-            data-toggle="tooltip"
-            data-original-title="Follow us"
-          >
-            <span class="btn-inner--icon"><i class="fa fa-twitter"></i></span>
-          </button>
-          <button
-            target="_blank"
-            href="https://www.facebook.com/CreativeTim/"
+            href="https://www.facebook.com/mxlisys"
             rel="nofollow"
             class="btn-icon-only rounded-circle btn btn-facebook"
             data-toggle="tooltip"
@@ -49,25 +21,18 @@
           >
             <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
           </button>
+
           <button
             target="_blank"
-            href="https://dribbble.com/creativetim"
-            rel="nofollow"
-            class="btn btn-icon-only btn-dribbble rounded-circle"
-            data-toggle="tooltip"
-            data-original-title="Follow us"
-          >
-            <span class="btn-inner--icon"><i class="fa fa-dribbble"></i></span>
-          </button>
-          <button
-            target="_blank"
-            href="https://github.com/creativetimofficial"
+            href="https://www.instagram.com/mxlisys/"
             rel="nofollow"
             class="btn btn-icon-only btn-github rounded-circle"
             data-toggle="tooltip"
             data-original-title="Star on Github"
           >
-            <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
+            <span class="btn-inner--icon"
+              ><i class="fa-brands fa-instagram"></i
+            ></span>
           </button>
         </div>
       </div>
@@ -75,22 +40,22 @@
       <div class="row align-items-center justify-content-md-between">
         <div class="col-md-6">
           <div class="copyright">
-            &copy; 2020 <a href="" target="_blank">Creative Tim</a>.
+            &copy; 2023 <a href="" target="_blank">Mexicali Systems</a>.
           </div>
         </div>
         <div class="col-md-6">
           <ul class="nav nav-footer justify-content-end">
             <li class="nav-item">
-              <a href="" class="nav-link" target="_blank">Creative Tim</a>
+              <a href="" class="nav-link" target="_blank">Mexicali Systems</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link" target="_blank">What We Do</a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link" target="_blank">About Us</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link" target="_blank">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link" target="_blank">License</a>
+              <a href="" class="nav-link" target="_blank">Contact</a>
             </li>
           </ul>
         </div>
@@ -103,4 +68,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.footer {
+  width: 100vw;
+}
+</style>
