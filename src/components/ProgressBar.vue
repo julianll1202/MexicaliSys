@@ -8,7 +8,7 @@
     </div>
     <div class="progress">
       <div
-        class="progress-bar bg-default"
+        class="progress-bar bg-primary"
         role="progressbar"
         aria-valuenow="95"
         aria-valuemin="0"

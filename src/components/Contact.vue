@@ -1,6 +1,12 @@
 <template>
-  <div class="section features-6">
+  <div class="section features-6" style="padding: 0">
     <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <span class="badge badge-primary badge-pill mb-3">MXLI SYS</span>
+          <h3 class="display-3">Contact</h3>
+        </div>
+      </div>
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="info info-horizontal info-hover-primary">

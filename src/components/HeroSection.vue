@@ -9,7 +9,17 @@
       <div class="hero-logo">
         <img src="/img/mxli_sys_logo.png" />
         <h3>
-          Custom Software, Technical Support,Consulting, Networking and More...
+          <span class="badge text-uppercase badge-primary"
+            >Custom Software</span
+          >
+
+          <span class="badge text-uppercase badge-success"
+            >Technical Support</span
+          >
+
+          <span class="badge text-uppercase badge-danger">Consulting</span>
+
+          <span class="badge text-uppercase badge-warning">Networking</span>
         </h3>
       </div>
     </div>
@@ -27,6 +37,9 @@ export default {};
   max-height: 400px;
 }
 
+.badge {
+  margin-right: 10px;
+}
 .hero-logo {
   z-index: 3;
   position: relative;

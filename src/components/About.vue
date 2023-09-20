@@ -7,7 +7,7 @@
           <h3 class="display-3">About Us</h3>
         </div>
       </div>
-      <div class="row align-items-center">
+      <div class="row align-items-start">
         <div class="col-lg-6">
           <div class="info info-horizontal info-hover-primary">
             <div class="description pl-4">

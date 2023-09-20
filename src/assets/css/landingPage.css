@@ -7,8 +7,8 @@
  width: 50%;
  height: auto;
  z-index: 3;
- top: -30vh;
- left: 180px;
+ top: -300px;
+ left: 170px;
  position: relative;
 }
 
@@ -16,6 +16,7 @@
     width: 100%;
     height: auto;
     margin: 15px;
+    border-radius: 20px;
 }
 
 .btn-lg  i {
