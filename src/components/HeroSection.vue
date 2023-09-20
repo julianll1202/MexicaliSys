@@ -6,6 +6,12 @@
         style="width: 100vw"
         class="img-fluid"
       />
+      <div class="hero-logo">
+        <img src="/img/mxli_sys_logo.png" />
+        <h3>
+          Custom Software, Technical Support,Consulting, Networking and More...
+        </h3>
+      </div>
     </div>
   </div>
 </template>
@@ -14,4 +20,30 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.section-hero {
+  width: 100vw;
+  height: auto;
+  max-height: 400px;
+}
+
+.hero-logo {
+  z-index: 3;
+  position: relative;
+  top: -900px;
+  left: 0;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+.hero-logo > h3 {
+  color: white;
+  font-weight: bold;
+}
+.hero-logo > img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 0;
+}
+</style>

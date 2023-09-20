@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-10 mx-md-auto">
+        <div class="col-lg-6">
           <form action="#">
             <div class="row">
               <div class="col-md-6">
@@ -59,7 +59,7 @@
               </div>
             </div>
 
-            <button type="button" class="btn btn-primary">Primary</button>
+            <input type="submit" class="btn btn-primary" value="Send" />
           </form>
         </div>
       </div>
